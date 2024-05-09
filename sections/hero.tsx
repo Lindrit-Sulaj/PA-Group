@@ -6,9 +6,9 @@ export default function Hero() {
   return (
     <section className="hero-bg h-[75vh] flex items-center px-4">
       <div className="max-w-screen-lg mx-auto w-full">
-        <h1 className='text-white text-5xl font-bold xl:leading-[65px]'>High Quality <span>Accounting</span> <br />  & Tax services</h1>
-        <p className='text-white/85 lg:text-lg mt-2 max-w-4xl'>We are your trusted team for tax & accounting services here in Kosovo. Whether you need assistance with tax planning, financial reporting, or bookkeeping, we are here to support your financial success journey every step of the way.</p>
-        <div className="flex gap-4 mt-4">
+        <h1 className='text-white text-3xl md:text-4xl md:text-center lg:text-left lg:text-5xl font-bold lg:leading-[65px]'>High Quality <span>Accounting</span> <br />  & Tax services</h1>
+        <p className='text-white/85 lg:text-lg mt-2 md:mx-auto lg:mx-0 md:text-center lg:text-left md:max-w-2xl lg:max-w-4xl'>We are your trusted team for tax & accounting services here in Kosovo. Whether you need assistance with tax planning, financial reporting, or bookkeeping, we are here to support your financial success journey every step of the way.</p>
+        <div className="flex justify-start md:justify-center lg:justify-start w-full gap-4 mt-4">
           <Link href="/">
             <Button className='text-white' size="xl" variant="outline">
               Learn more
