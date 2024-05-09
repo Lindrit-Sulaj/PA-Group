@@ -35,6 +35,7 @@ const config = {
       },
       colors: {
         main: "#0A6847",
+        "main-darker": '#06422D',
         secondary: "#e7e43d",
       }
     },

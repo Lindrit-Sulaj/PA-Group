@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section className="px-4 my-10 md:my-14 lg:my-20">
+    <section className="px-4 my-10 md:my-14 lg:mt-20">
       <div className="max-w-screen-md lg:max-w-[1150px] mx-auto flex flex-col lg:flex-row gap-y-6 gap-x-6">
         <div className="w-full lg:w-1/2">
           <Separator className='w-1/3 max-w-20 h-[5px] bg-main' />

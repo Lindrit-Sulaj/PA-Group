@@ -6,3 +6,8 @@
   background: linear-gradient(45deg, rgba(18, 53, 32, 0.849), rgba(18, 53, 32, 0.801)), url("../public/images/business-meeting.jpg");
   @apply bg-cover bg-center bg-no-repeat
 }
+
+.services-bg {
+  background: linear-gradient(45deg, rgba(18, 53, 32, 0.849), rgba(18, 53, 32, 0.801)), url("../public/images/services-image.jpg");
+  @apply bg-cover bg-center bg-no-repeat
+}
