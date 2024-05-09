@@ -70,7 +70,7 @@ export default function Navbar() {
                 <SheetTitle>PA Group</SheetTitle>
               </SheetHeader>
               <div className="h-full flex flex-col pb-6">
-                <div className="grow bg-neutral-50 flex flex-col items-center justify-center">
+                <div className="grow flex flex-col items-center justify-center">
                   <ul>
                     <li className='text-center my-3 text-lg text-neutral-700'>
                       <Link href="/">Home</Link>
