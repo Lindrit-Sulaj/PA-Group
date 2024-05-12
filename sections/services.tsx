@@ -6,14 +6,14 @@ export default function Services() {
     <section className='my-10 md:my-14 lg:my-20'>
       <div className='services-bg px-4 text-white'>
         <div className="max-w-screen-lg mx-auto pt-20 pb-48 ">
-          <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-center'>Services</h2>
+          <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-center'>Services</h2>
           <p className='text-[17px] md:text-lg text-white/80 max-w-xl mx-auto text-center mt-3'>Whether you are a large or small business, or an individual seeking accounting services, we are here to help you.</p>
         </div>
       </div>
       <div className="grid max-w-screen-lg mx-auto px-4 grid-cols-1 md:grid-cols-2 gap-6 -mt-36">
         <div className="bg-white overflow-hidden border-b-8 border-b-secondary">
           <img className='h-64 w-full object-cover' src="../images/financial-management.jpg" alt="Financial Management" />
-          <div className="p-10 text-white bg-main-darker">
+          <div className="p-6 md:p-10 text-white bg-main-darker">
             <div className="flex flex-wrap flex-col md:flex-row gap-y-1 md:items-end gap-x-2">
               <h3 className='font-bold text-lg md:text-xl'>Financial Management</h3>
               <Link href="/services" className='text-secondary font-medium'>{"Read more >"}</Link>
@@ -42,7 +42,7 @@ export default function Services() {
         </div>
         <div className="bg-white overflow-hidden border-b-8 border-b-secondary">
         <img className='h-64 w-full object-cover' src="../images/compliance-reporting.jpg" alt="Compliance and Reporting" />
-          <div className="p-10 text-white bg-main-darker">
+          <div className="p-6 md:p-10 text-white bg-main-darker">
             <div className="flex flex-wrap flex-col md:flex-row gap-y-1 md:items-end gap-x-2">
               <h3 className='font-bold text-lg md:text-xl'>Compliance and Reporting</h3>
               <Link href="/services" className='text-secondary font-medium'>{"Read more >"}</Link>

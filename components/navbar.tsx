@@ -28,7 +28,7 @@ export default function Navbar() {
   })
 
   return (
-    <nav className={`fixed top-0 w-full h-[70px] px-4 transition-all ${withBackground ? "bg-white text-black border-b" : "bg-transparent text-white"}`}>
+    <nav className={`fixed z-50 top-0 w-full h-[70px] px-4 transition-all ${withBackground ? "bg-white text-black border-b" : "bg-transparent text-white"}`}>
       <div className="max-w-screen-lg mx-auto h-full flex items-center justify-between">
         <div className='flex gap-8 items-center'>
           <h2 className='text-[22px] font-bold'>PA Group</h2>

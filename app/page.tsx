@@ -1,6 +1,8 @@
 import Hero from "@/sections/hero";
 import About from "@/sections/about";
 import Services from "@/sections/services";
+import WhyChooseUs from "@/sections/why-choose-us";
+import Testimonials from "@/sections/testimonials";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
         </div>
       </section>
       <Services />
+      <WhyChooseUs />
+      <Testimonials />
       <div className="h-screen"></div>
     </main>
   );
