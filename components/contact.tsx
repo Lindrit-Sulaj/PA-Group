@@ -7,9 +7,9 @@ import { Button } from './ui/button'
 export default function Contact() {
   return (
     <section className='mt-10 md:mt-14 lg:mt-20'>
-      <div className="flex">
-        <div className="w-1/2 flex justify-center items-center bg-neutral-50">
-          <div className="block w-1/2 mx-auto">
+      <div className="flex flex-col lg:flex-row gap-y-8">
+        <div className="w-full lg:w-1/2 px-4 flex justify-center items-center">
+          <div className="block w-full xl:w-3/4 mx-auto">
             <h2 className='text-2xl md:text-3xl lg:text-4xl lg:leading-[48px] font-bold mt-2'>Get in touch</h2>
             <div className="mt-8 grid grid-cols-2 gap-5">
               <div className='bg-main text-white px-4 py-8'>
@@ -47,7 +47,7 @@ export default function Contact() {
           </div>
 
         </div>
-        <div className="grow bg-main text-white h-full p-20">
+        <div className="grow bg-main text-white h-full p-6 md:p-10 lg:p-20">
           <form action="">
             <div>
               <Label>Name</Label>
