@@ -3,6 +3,8 @@ import About from "@/sections/about";
 import Services from "@/sections/services";
 import WhyChooseUs from "@/sections/why-choose-us";
 import Clients from "@/sections/clients";
+import Faq from "@/sections/faq";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -28,7 +30,8 @@ export default function Home() {
       <Services />
       <WhyChooseUs />
       <Clients />
-      <div className="h-screen"></div>
+      <Faq />
+      <Contact />
     </main>
   );
 }

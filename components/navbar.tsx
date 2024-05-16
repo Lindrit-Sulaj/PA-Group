@@ -33,10 +33,10 @@ export default function Navbar() {
         <div className='flex gap-8 items-center'>
           <h2 className='text-[22px] font-bold'>PA Group</h2>
           <ul className='hidden lg:flex gap-x-6'>
+            <li className={`${!withBackground ? "text-white/80 hover:text-white" : ""} transition-all`}><Link href="/">Home</Link></li>
             <li className={`${!withBackground ? "text-white/80 hover:text-white" : ""} transition-all`}>
-              <Link href="/">About</Link></li>
+              <Link href="/about">About</Link></li>
             <li className={`${!withBackground ? "text-white/80 hover:text-white" : ""} transition-all`}><Link href="/services">Services</Link></li>
-            <li className={`${!withBackground ? "text-white/80 hover:text-white" : ""} transition-all`}><Link href="/work">Work</Link></li>
           </ul>
         </div>
 
