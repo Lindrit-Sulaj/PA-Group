@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <footer className='py-20 bg-main-darker text-white px-4'>
-      <div className="max-w-[1150px] mx-auto flex justify-between gap-x-8">
+      <div className="max-w-[1150px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-8 lg:flex lg:justify-between gap-x-8">
         <div>
           <h3 className="font-bold text-lg">PA Group © 2024</h3>
           <p className='md:text-[17px] mt-3'>We are your trusted accountants in Prizren, Kosovo</p>

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const default_font = Plus_Jakarta_Sans({ subsets: ["latin"], weight: ['800', '700', '600', '500', '400', '300', '200',] });
+const default_font = Poppins({ subsets: ["latin"], weight: ['800', '700', '600', '500', '400', '300', '200',] });
 
 export const metadata: Metadata = {
   title: "Professional Accounting Group | Home",
